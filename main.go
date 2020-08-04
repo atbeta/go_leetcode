@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-  s := []int{1,2,3,100,21,5}
+  s := []int{1,2,3,100,31,25}
   head := NewListNode(s)
   //problems.SwapPairs(head)
   reversed := problems.ReverseList(head)

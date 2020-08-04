@@ -19,18 +19,17 @@ func ReverseList(head *ListNode) *ListNode {
   }
   currentHead := head
   current := head.Next
-  previousNode := head
+  originHead := head
   for current.Next != nil {
     temp := current.Next
     current.Next = currentHead
-    currentHead.Next = temp
-    previousNode = currentHead
+    originHead.Next = temp
     currentHead = current
     current = temp
     fmt.Println("-------------------")
     currentHead.Print()
   }
-  previousNode.Next = nil
+  originHead.Next = nil
   current.Next = currentHead
   currentHead = current
   return currentHead
