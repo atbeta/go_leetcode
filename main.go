@@ -17,6 +17,9 @@ func main() {
   //removed.Print()
   //steps := problems.ClimbStairs(45)
   //fmt.Println(steps)
-  result := problems.MySqrt(0)
+  //result := problems.MySqrt(0)
+  //fmt.Println(result)
+
+  result := problems.IsPerfectSquare(17)
   fmt.Println(result)
 }
