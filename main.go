@@ -19,7 +19,8 @@ func main() {
   //fmt.Println(steps)
   //result := problems.MySqrt(0)
   //fmt.Println(result)
-
-  result := problems.IsPerfectSquare(17)
+  //result := problems.IsPerfectSquare(17)
+  //fmt.Println(result)
+  result := problems.JudgeSquareSum(16)
   fmt.Println(result)
 }
