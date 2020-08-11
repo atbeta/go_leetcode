@@ -15,6 +15,8 @@ func main() {
   // p203
   //removed := problems.RemoveElements(head, 2)
   //removed.Print()
-  steps := problems.ClimbStairs(45)
-  fmt.Println(steps)
+  //steps := problems.ClimbStairs(45)
+  //fmt.Println(steps)
+  result := problems.MySqrt(0)
+  fmt.Println(result)
 }
