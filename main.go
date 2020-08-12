@@ -21,6 +21,8 @@ func main() {
   //fmt.Println(result)
   //result := problems.IsPerfectSquare(17)
   //fmt.Println(result)
-  result := problems.JudgeSquareSum(16)
+  //result := problems.JudgeSquareSum(16)
+  //fmt.Println(result)
+  result := problems.IsPowerOfTwo(26)
   fmt.Println(result)
 }
