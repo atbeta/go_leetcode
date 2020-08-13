@@ -23,6 +23,10 @@ func main() {
   //fmt.Println(result)
   //result := problems.JudgeSquareSum(16)
   //fmt.Println(result)
-  result := problems.IsPowerOfTwo(26)
+  //result := problems.IsPowerOfTwo(26)
+  //fmt.Println(result)
+  //result :=problems.GeneratePascalTriangle(10)
+  //fmt.Println(result)
+  result := problems.GetPascalRow(5)
   fmt.Println(result)
 }
