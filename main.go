@@ -27,6 +27,9 @@ func main() {
   //fmt.Println(result)
   //result :=problems.GeneratePascalTriangle(10)
   //fmt.Println(result)
-  result := problems.GetPascalRow(5)
+  //result := problems.GetPascalRow(5)
+  //fmt.Println(result)
+  prices := []int{7,1,5,3,6,4}
+  result := problems.MaxProfit(prices)
   fmt.Println(result)
 }
