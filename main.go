@@ -29,7 +29,10 @@ func main() {
   //fmt.Println(result)
   //result := problems.GetPascalRow(5)
   //fmt.Println(result)
-  prices := []int{7,1,5,3,6,4}
-  result := problems.MaxProfit(prices)
+  //prices := []int{7,1,5,3,6,4}
+  //result := problems.MaxProfit(prices)
+  //fmt.Println(result)
+  s := "A man, a plan, a canal: Panama"
+  result := problems.IsPalindrome(s)
   fmt.Println(result)
 }
