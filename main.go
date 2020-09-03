@@ -32,7 +32,11 @@ func main() {
   //prices := []int{7,1,5,3,6,4}
   //result := problems.MaxProfit(prices)
   //fmt.Println(result)
-  s := "A man, a plan, a canal: Panama"
-  result := problems.IsPalindrome(s)
-  fmt.Println(result)
+  //s := "A man, a plan, a canal: Panama"
+  //result := problems.IsPalindrome(s)
+  //fmt.Println(result)
+  nums1 := []int{1,5,6,0,0,0}
+  nums2 := []int{2,3,4}
+  problems.MergeSortedArray(nums1, 3, nums2, 3)
+  fmt.Print(nums1)
 }
