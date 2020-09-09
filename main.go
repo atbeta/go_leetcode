@@ -35,8 +35,10 @@ func main() {
   //s := "A man, a plan, a canal: Panama"
   //result := problems.IsPalindrome(s)
   //fmt.Println(result)
-  nums1 := []int{1,5,6,0,0,0}
-  nums2 := []int{2,3,4}
-  problems.MergeSortedArray(nums1, 3, nums2, 3)
-  fmt.Print(nums1)
+  //nums1 := []int{1,5,6,0,0,0}
+  //nums2 := []int{2,3,4}
+  //problems.MergeSortedArray(nums1, 3, nums2, 3)
+  //fmt.Print(nums1)
+  nums := []int{-2,-2,1,1,-3,1,-3,-3,-4,-2}
+  fmt.Println(problems.SingleNumberII(nums))
 }
