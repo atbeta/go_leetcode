@@ -39,6 +39,8 @@ func main() {
   //nums2 := []int{2,3,4}
   //problems.MergeSortedArray(nums1, 3, nums2, 3)
   //fmt.Print(nums1)
-  nums := []int{-2,-2,1,1,-3,1,-3,-3,-4,-2}
-  fmt.Println(problems.SingleNumberII(nums))
+  //nums := []int{-2,-2,1,1,-3,1,-3,-3,-4,-2}
+  //fmt.Println(problems.SingleNumberII(nums))
+  nums := []int{1,1,3,3,7,7,10,6,6,100}
+  fmt.Println(problems.SingleNumberIII(nums))
 }
