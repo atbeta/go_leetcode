@@ -41,6 +41,7 @@ func main() {
   //fmt.Print(nums1)
   //nums := []int{-2,-2,1,1,-3,1,-3,-3,-4,-2}
   //fmt.Println(problems.SingleNumberII(nums))
-  nums := []int{1,1,3,3,7,7,10,6,6,100}
-  fmt.Println(problems.SingleNumberIII(nums))
+  //nums := []int{1,1,3,3,7,7,10,6,6,100}
+  //fmt.Println(problems.SingleNumberIII(nums))
+  fmt.Println(problems.UniquePaths(7,3))
 }
