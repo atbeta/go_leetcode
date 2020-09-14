@@ -1,9 +1,6 @@
 package main
 
-import (
-  "fmt"
-  "github.com/atbeta/go_leetcode/problems"
-)
+import "github.com/atbeta/go_leetcode/problems"
 
 func main() {
   //s := []int{1,2,2,1}
@@ -43,5 +40,7 @@ func main() {
   //fmt.Println(problems.SingleNumberII(nums))
   //nums := []int{1,1,3,3,7,7,10,6,6,100}
   //fmt.Println(problems.SingleNumberIII(nums))
-  fmt.Println(problems.UniquePaths(7,3))
+  //fmt.Println(problems.UniquePaths(7,3))
+  nums := []int{-2,1,-3,4,-1,2,1,-5,4}
+  problems.MaxSubArray(nums)
 }
