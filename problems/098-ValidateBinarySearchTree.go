@@ -1,6 +1,7 @@
 package problems
 
-import (
+import
+(
   . "github.com/atbeta/go_leetcode/structs"
 )
 
